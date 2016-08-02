@@ -17,4 +17,9 @@ class JenkinsSampleTest < MiniTest::Unit::TestCase
   def test_congratulations
     assert(@webpage =~ /Congratulations/)
   end
+
+  def test_AWS
+    assert(@webpage =~ /AWS/)
+  end
+
 end
